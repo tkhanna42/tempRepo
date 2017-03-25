@@ -9,7 +9,7 @@ var express = require("express"),
 var app = express();
 
 // connect to mongo dbs clementinejs
-mongo.connect('mongodb://localhost:27017/clementinejs', function (err, db) {
+mongo.connect('mongodb://tkhanna42:funnybunny@ds141450.mlab.com:41450/clementinejs', function (err, db) {
     if (err) {
         // throw an error if connection fails
         throw new Error("Database failed to connect!");
